@@ -41,7 +41,7 @@ const ProductPage: NextPage<Props> = ({ product }) => {
   return (
     <Stack>
       <ProductCard product={product} />
-      <Rating value={5} />
+      <Rating value={2} />
       <AddToCart inStock={inStock} />
     </Stack>
   );
